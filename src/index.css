@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f6f4ee;
+  color: #171e2c;
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #d97a4f;
+  color: #f6f4ee;
+}
+
+:focus-visible {
+  outline: 2px solid #d97a4f;
+  outline-offset: 3px;
+}
+
+/* Dashed section separators — reused across the page */
+.dash-line {
+  border: none;
+  border-top: 1px dashed #d8d4c8;
+}
+
+.dash-line-v {
+  border: none;
+  border-left: 1px dashed #d8d4c8;
+}
+
+/* Small mono eyebrow label style, e.g. [ CREATIVE TECHNOLOGIST ] */
+.eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #d97a4f;
+}
+
+/* Serif italic accent word used inside headlines */
+.accent-serif {
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
