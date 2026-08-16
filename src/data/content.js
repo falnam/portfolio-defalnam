@@ -309,6 +309,11 @@ export const education = [
     program: 'Bachelor of Software Engineering',
     period: 'August 2022 — December 2026',
   },
+   {
+    school: 'SMK Wicaksana',
+    program: 'Computer Network and Telecommunication',
+    period: 'July 2019 — May 2022',
+  },
 ]
 
 export const certifications = [
