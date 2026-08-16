@@ -13,6 +13,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/adefatkhulanam',
   linkedinLabel: 'linkedin.com/in/adefatkhulanam',
   instagram: 'https://www.instagram.com/defalnam/',
+  github: 'https://github.com/falnam',
   cvUrl: 'https://drive.google.com/file/d/1ace_KZufmYuvD3SGnOTZbOhf6My25Hr2/view?usp=sharing',
   photo: '/images/profile.png',
 }

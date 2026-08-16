@@ -17,6 +17,9 @@ export default function Footer() {
           <p className="text-base font-semibold text-ink">{profile.name}</p>
           <p className="eyebrow mt-1">{profile.role}</p>
           <div className="mt-4 flex gap-4 font-mono text-xs text-muted">
+            <a href={profile.github} className="hover:text-terracotta">
+              GitHub
+            </a>
             <a href={profile.linkedin} className="hover:text-terracotta">
               LinkedIn
             </a>
