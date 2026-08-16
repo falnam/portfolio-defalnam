@@ -7,7 +7,7 @@ export default {
     // when both queries match at very small widths.
     screens: {
       tablet: { max: '810px' },
-      phone: { max: '390px' },
+      phone: { max: '480px' },
     },
     extend: {
       colors: {
