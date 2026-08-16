@@ -305,9 +305,9 @@ export const educationSection = {
 
 export const education = [
   {
-    school: 'Universitas Telkom',
-    program: 'Software Engineering',
-    period: 'Agustus 2022 — Desember 2026',
+    school: 'Telkom University',
+    program: 'Bachelor of Software Engineering',
+    period: 'August 2022 — December 2026',
   },
 ]
 
